@@ -9,10 +9,10 @@ public class NasaCountdown {
 		// 3. convert the user's answer to an int (Integer.parseInt)
 int x = Integer.parseInt(a);
 		// 4. countdown from user's starting point
-for (; x > -1; x--) {
-System.out.println(x);	
+for (; x > 0; x--) {
+	speak(x + "");	
 }
-System.out.println("blastoff");		// 1. countdown from 10 to 0
+speak("blastoff");		// 1. countdown from 10 to 0
 
 		// 5. when the counting is done, print "blastoff!"
 	}
